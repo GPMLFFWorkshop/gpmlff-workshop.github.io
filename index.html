@@ -327,7 +327,7 @@
     </section>
 
 <!--==========================
-  Schedule Section
+  Schedule Section (stacked)
 ============================-->
 <section id="schedule" class="section-with-bg">
   <div class="container wow fadeInUp">
@@ -335,99 +335,76 @@
       <h2>Workshop Schedule</h2>
     </div>
 
-    <div class="tab-content row justify-content-center">
-
-      <!-- Day 1 -->
-      <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-        <div class="section-header">
-          <h3 style="text-align: center;">Day 1 – Introduction to MLFFs (July 13)</h3>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Invited Talks</h4>
-            <p>Three talks introducing machine-learned force fields and their theoretical foundations.</p>
-          </div>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Hands-on Session</h4>
-            <p>MLFF basic implementation using JAX and PyTorch.</p>
-          </div>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Poster Session</h4>
-            <p>Interactive space to showcase ongoing research and foster collaboration.</p>
-          </div>
-        </div>
+    <!-- Day 1 -->
+    <div class="col-lg-9 mx-auto schedule-day">
+      <div class="section-header">
+        <h3 class="text-center">Day 1 – Introduction to MLFFs (July 13)</h3>
       </div>
-      <!-- End Day 1 -->
 
-      <!-- Day 2 -->
-      <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
-        <div class="section-header">
-          <h3 style="text-align: center;">Day 2 – Biomolecules-SO3LR (July 14)</h3>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Invited Talks</h4>
-            <p>Talks covering MLFF applications in biomolecular simulations.</p>
-          </div>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Hands-on Session</h4>
-            <p>MLFF applied to biomolecular simulations.</p>
-          </div>
-        </div>
+      <div class="schedule-item">
+        <h4>Invited Talks</h4>
+        <p>Three talks introducing machine-learned force fields and their theoretical foundations.</p>
       </div>
-      <!-- End Day 2 -->
 
-      <!-- Day 3 -->
-      <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-3">
-        <div class="section-header">
-          <h3 style="text-align: center;">Day 3 – MLFF for Materials Simulation (July 15)</h3>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Invited Talk</h4>
-            <p>Expert talk on MLFF for materials simulations.</p>
-          </div>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Hands-on Session</h4>
-            <p>Practical session using MLFF for material systems.</p>
-          </div>
-        </div>
-
-        <div class="row schedule-item">
-          <div class="col-md-2"><time></time></div>
-          <div class="col-md-10">
-            <h4>Round Table & Closing</h4>
-            <p>Discussion and workshop closure.</p>
-          </div>
-        </div>
+      <div class="schedule-item">
+        <h4>Hands-on Session</h4>
+        <p>MLFF basic implementation using JAX and PyTorch.</p>
       </div>
-      <!-- End Day 3 -->
 
+      <div class="schedule-item">
+        <h4>Poster Session</h4>
+        <p>Interactive space to showcase ongoing research and foster collaboration.</p>
+      </div>
     </div>
+
+    <!-- Day 2 -->
+    <div class="col-lg-9 mx-auto schedule-day mt-4">
+      <div class="section-header">
+        <h3 class="text-center">Day 2 – Biomolecules-SO3LR (July 14)</h3>
+      </div>
+
+      <div class="schedule-item">
+        <h4>Invited Talks</h4>
+        <p>Talks covering MLFF applications in biomolecular simulations.</p>
+      </div>
+
+      <div class="schedule-item">
+        <h4>Hands-on Session</h4>
+        <p>MLFF applied to biomolecular simulations.</p>
+      </div>
+    </div>
+
+    <!-- Day 3 -->
+    <div class="col-lg-9 mx-auto schedule-day mt-4">
+      <div class="section-header">
+        <h3 class="text-center">Day 3 – MLFF for Materials Simulation (July 15)</h3>
+      </div>
+
+      <div class="schedule-item">
+        <h4>Invited Talk</h4>
+        <p>Expert talk on MLFF for materials simulations.</p>
+      </div>
+
+      <div class="schedule-item">
+        <h4>Hands-on Session</h4>
+        <p>Practical session using MLFF for material systems.</p>
+      </div>
+
+      <div class="schedule-item">
+        <h4>Round Table &amp; Closing</h4>
+        <p>Discussion and workshop closure.</p>
+      </div>
+    </div>
+
   </div>
 </section>
+
+<style>
+  /* ligeros estilos para separar y mejorar lectura */
+  .schedule-day { background: transparent; padding: 1rem; }
+  .schedule-item { margin-bottom: 0.75rem; }
+</style>
+
 
 <!--==========================
   Abstract Booklet Section
