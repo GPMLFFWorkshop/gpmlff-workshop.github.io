@@ -95,7 +95,7 @@ jQuery(document).ready(function($) {
     var googleFormURL = "https://docs.google.com/forms/d/1AMX0dVkLkvMrWdawX47yw-freAERJx8Xnw34kN8CtnM/formResponse?"; // Replace with your Google Form URL
     const container = document.getElementById("abstractContainer");
     const iframe = document.createElement("iframe");
-    iframe.src = googleFormURL+formData + "&susubmit=Submit";
+    iframe.src = googleFormURL+formData + "&submit=Submit";
     iframe.name = "abstract-iframe";
     iframe.id = "abstract-iframe";
     iframe.style = "display:none;";

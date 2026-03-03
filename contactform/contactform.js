@@ -95,7 +95,7 @@ jQuery(document).ready(function($) {
     var googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSeA1qYQQa1TsnFVfXDI1R0PTHxZH6VUSjg20Ybu8AGQPziKiw/formResponse?"; // Replace with your Google Form URL
     const container = document.getElementById("contactContainer");
     const iframe = document.createElement("iframe");
-    iframe.src = googleFormURL+formData + "&susubmit=Submit";
+    iframe.src = googleFormURL+formData + "&submit=Submit";
     iframe.name = "contact-iframe";
     iframe.id = "contact-iframe";
     iframe.style = "display:none;";
