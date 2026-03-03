@@ -812,7 +812,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   grid-column: 1;
   grid-row: 1 / span 10;
   align-self: start;
-  padding-top: 2px;
 }
 
 #schedule .schedule-item h4,
@@ -838,8 +837,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item h4 {
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
+  line-height: 1.4;
+  margin-top: 0;
   margin-bottom: 5px;
 }
 
@@ -1753,7 +1755,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .schedule-item time {
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
   color: #555;
 }
 
